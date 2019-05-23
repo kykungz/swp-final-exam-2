@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trade War Tweets Trend</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1 id="title">Trade War Tweets Trend</h1>
+  <canvas id="twitter-chart"></canvas>
+  <div id="tweets"></div>
+  <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    firebase.initializeApp({
+      apiKey: 'AIzaSyDcf7qU7W7YcytW-wrolNsl447XT1QkFBc',
+      authDomain: 'swp-final-exam-241506.firebaseapp.com',
+      databaseURL: 'https://swp-final-exam-241506.firebaseio.com',
+      projectId: 'swp-final-exam-241506',
+      storageBucket: 'swp-final-exam-241506.appspot.com',
+      messagingSenderId: '958053292968',
+      appId: '1:958053292968:web:b9330321bdf259f6',
+    })
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+  <script src="./home.js"></script>
+</body>
+
+</html>

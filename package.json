@@ -1,0 +1,27 @@
+{
+  "name": "swp-final-exam-2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js",
+    "deploy": "gcloud app deploy"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "~4.16.0",
+    "firebase": "^6.0.2",
+    "firebase-admin": "^7.4.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.19.0",
+    "pug": "2.0.0-beta11",
+    "socket.io": "^2.2.0",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
